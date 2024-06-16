@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Новый шрифт */
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Замена фона на картинку */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон для читабельности текста */
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #959eff; /* Красный цвет */
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #5d5ff0; /* Красный цвет */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 25px; /* Округлые кнопки */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5d5ff0; /* Темно-красный цвет при наведении */
+}
+
+.reports {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.report {
+    background-color: #091546a3;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #959eff; /* Красный цвет */
+}
+
+h3 {
+    color: #959eff; /* Красный цвет */
+}
+
+p {
+    color: white; /* Белый текст */
+}

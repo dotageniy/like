@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учет рабочего времени</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="youtube-logo.png" alt="YouTube Logo" class="logo">
+            <h1>Учет рабочего времени</h1>
+        </header>
+        <div class="buttons">
+            <button id="startDay">Начало рабочего дня</button>
+            <button id="endDay">Конец рабочего дня</button>
+            <button id="startBreak">Начало перерыва</button>
+            <button id="endBreak">Конец перерыва</button>
+        </div>
+        <div class="reports">
+            <h2>Отчеты</h2>
+            <div class="report">
+                <h3>Ежедневный отчет</h3>
+                <p>Начало: <span id="startDayTime"></span></p>
+                <p>Конец: <span id="endDayTime"></span></p>
+                <p>Перерывы: <span id="breakTimes"></span></p>
+                <p>Общее время: <span id="totalTime"></span></p>
+            </div>
+            <div class="report">
+                <h3>Недельный отчет</h3>
+                <p id="weeklyReport"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
